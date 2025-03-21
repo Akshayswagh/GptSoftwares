@@ -855,6 +855,7 @@ img{
 
 .main-header .header-upper .logo-box .logo{
 	position:relative;
+	display: flex;
 }
 
 .main-header .outer-box{
@@ -1263,7 +1264,7 @@ img{
 	letter-spacing:0px;
 	opacity:1;
 	font-weight:500;
-	padding:33px 0px;
+	padding:33px 0 11px 0px;
 	font-size:14px;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
@@ -6261,6 +6262,7 @@ img{
 	height:100%;
 	background-position:left top;
 	background-repeat:no-repeat;
+	background-color: black;
 }
 
 .main-footer .pattern-layer-two{
@@ -6271,6 +6273,7 @@ img{
 	height:100%;
 	background-position:right top;
 	background-repeat:no-repeat;
+	background-color: black;
 }
 
 .main-footer .pattern-layer-three{
@@ -12671,4 +12674,9 @@ img{
 
 .rtl .main-header .info-box:first-child {
     margin-left: 0px;
+}
+
+
+a b{
+	color: white;
 }
